@@ -233,9 +233,6 @@ getUserById(users, '16t', user => {
 */
 
 // CODE HERE
-const addingFactory = num1 => add = num2 => {
-    return sum = num1 + num2
-  }
 
 /*
   Now that you have addingFactory, you can create other
@@ -250,7 +247,6 @@ const addingFactory = num1 => add = num2 => {
 */
 
 // CODE HERE
-addTen = (addingFactory(10))
 
 /*
   Now the inner function is stored in the addTen variable! 
